@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/designer-archive/static/css/main.ea28ae96.css",
-    "main.js": "/designer-archive/static/js/main.534c9663.js",
+    "main.js": "/designer-archive/static/js/main.b49fbf5c.js",
     "static/media/madrid-shared-map.png": "/designer-archive/static/media/madrid-shared-map.31c8dd5e72db3e7752db.png",
     "static/media/pemi-map.png": "/designer-archive/static/media/pemi-map.aa58def490ba79b45e8c.png",
     "static/media/philmont-map.png": "/designer-archive/static/media/philmont-map.79a5a1ea9d7b965a9f3f.png",
@@ -91,10 +91,10 @@
     "static/media/year-time.svg": "/designer-archive/static/media/year-time.d84542bb4d3641de18cb49acaac8dfb0.svg",
     "index.html": "/designer-archive/index.html",
     "main.ea28ae96.css.map": "/designer-archive/static/css/main.ea28ae96.css.map",
-    "main.534c9663.js.map": "/designer-archive/static/js/main.534c9663.js.map"
+    "main.b49fbf5c.js.map": "/designer-archive/static/js/main.b49fbf5c.js.map"
   },
   "entrypoints": [
     "static/css/main.ea28ae96.css",
-    "static/js/main.534c9663.js"
+    "static/js/main.b49fbf5c.js"
   ]
 }
