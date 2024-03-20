@@ -1,8 +1,10 @@
 import { DashedCircle } from "../../../components/dashed-circle";
 import { colors, parametricEquation } from "../../../utils";
 
-const radius = 60
-const width = radius * 2 + 60 // the 10 is extra padding
+// const radius = 60
+// const width = radius * 2 + 60 // the 10 is extra padding
+const radius = (window.innerWidth / 10) / 2
+const width = radius * 2 + radius / 2// the 10 is extra padding
 const itemSize = 4
 
 export function YearSummary(props) {

@@ -94,7 +94,8 @@ html {
 }
 
 #bottomVis {
-  width: 98.5vw;
+  width: 90vw;
+  margin-left: 5vw;
   height: 20vh;
 }
 

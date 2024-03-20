@@ -3,11 +3,11 @@ import { DashedCircle } from "../../../components/dashed-circle"
 import { Node } from "./node"
 import { ArtifactSummary } from "./artifactSummary"
 
-const initialRadius = 19
 
 export function Visualization(props) {
   const width = window.innerWidth * 0.6
   const height = window.innerHeight * 0.75
+  const initialRadius = (width * 0.05) / 2
   const rings = Array(12).fill(0).map((v, i) => initialRadius + (i * initialRadius))
   const artifactSize = 6
   const [hoverArtifact, updateHover] = useState()
