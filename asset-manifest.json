@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/designer-archive/static/css/main.8667b5c3.css",
-    "main.js": "/designer-archive/static/js/main.7a7a60aa.js",
+    "main.css": "/designer-archive/static/css/main.ea28ae96.css",
+    "main.js": "/designer-archive/static/js/main.534c9663.js",
     "static/media/madrid-shared-map.png": "/designer-archive/static/media/madrid-shared-map.31c8dd5e72db3e7752db.png",
     "static/media/pemi-map.png": "/designer-archive/static/media/pemi-map.aa58def490ba79b45e8c.png",
     "static/media/philmont-map.png": "/designer-archive/static/media/philmont-map.79a5a1ea9d7b965a9f3f.png",
@@ -90,11 +90,11 @@
     "static/media/eindhoven-book.jpg": "/designer-archive/static/media/eindhoven-book.313f9a1ef57efecab61d.jpg",
     "static/media/year-time.svg": "/designer-archive/static/media/year-time.d84542bb4d3641de18cb49acaac8dfb0.svg",
     "index.html": "/designer-archive/index.html",
-    "main.8667b5c3.css.map": "/designer-archive/static/css/main.8667b5c3.css.map",
-    "main.7a7a60aa.js.map": "/designer-archive/static/js/main.7a7a60aa.js.map"
+    "main.ea28ae96.css.map": "/designer-archive/static/css/main.ea28ae96.css.map",
+    "main.534c9663.js.map": "/designer-archive/static/js/main.534c9663.js.map"
   },
   "entrypoints": [
-    "static/css/main.8667b5c3.css",
-    "static/js/main.7a7a60aa.js"
+    "static/css/main.ea28ae96.css",
+    "static/js/main.534c9663.js"
   ]
 }
