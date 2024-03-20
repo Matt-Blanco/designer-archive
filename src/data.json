@@ -1,0 +1,792 @@
+[
+  {
+    "name": "Map of the Adirondack Mountains",
+    "country": "USA",
+    "city": "Southampton",
+    "state": "NJ",
+    "month": 5,
+    "year": 2020,
+    "image": "assets/archive-items/adirondacks-map.png",
+    "type": "Map"
+  },
+  {
+    "name": "Postcard from Amsterdam",
+    "country": "NL",
+    "city": "Amsterdam",
+    "state": "",
+    "month": 10,
+    "year": 2022,
+    "image": "assets/archive-items/amsterdam-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Map of the Moco Museum in Amsterdam",
+    "country": "NL",
+    "city": "Amsterdam",
+    "state": "",
+    "month": 10,
+    "year": 2023,
+    "image": "assets/archive-items/amsterdam-moco-map.png",
+    "type": "Map"
+  },
+  {
+    "name": "Map of Banff and the Canadian Rockies",
+    "country": "CA",
+    "city": "Banff",
+    "state": "",
+    "month": 7,
+    "year": 2023,
+    "image": "assets/archive-items/banff-map.png",
+    "type": "Map"
+  },
+  {
+    "name": "Postcard from Banff",
+    "country": "CA",
+    "city": "Banff",
+    "state": "",
+    "month": 7,
+    "year": 2023,
+    "image": "assets/archive-items/banff-postcard-2.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Postcard from Banff",
+    "country": "CA",
+    "city": "Lake Louise",
+    "state": "",
+    "month": 7,
+    "year": 2023,
+    "image": "assets/archive-items/banff-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Typography based postcard from Banff",
+    "country": "CA",
+    "city": "Lake Louise",
+    "state": "",
+    "month": 7,
+    "year": 2023,
+    "image": "assets/archive-items/banff-ski-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "One of a kind graphic collage poster",
+    "country": "ES",
+    "city": "Barcelona",
+    "state": "",
+    "month": 10,
+    "year": 2022,
+    "image": "assets/archive-items/barcelona-poster.png",
+    "type": "Poster"
+  },
+  {
+    "name": "Terra Forma: A Book of Speculative Maps",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 3,
+    "year": 2024,
+    "image": "assets/archive-items/boston-book.jpg",
+    "type": "Book"
+  },
+  {
+    "name": "Speculative Everything - Design, Fiction, and Social Dreaming",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 5,
+    "year": 2022,
+    "image": "assets/archive-items/boston-book-2.jpg",
+    "type": "Book"
+  },
+  {
+    "name": "Black & White art print of a street in Boston",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 10,
+    "year": 2019,
+    "image": "assets/archive-items/boston-bw-art.png",
+    "type": "Print"
+  },
+  {
+    "name": "Color art print of a street in Boston",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 10,
+    "year": 2019,
+    "image": "assets/archive-items/boston-color-art.png",
+    "type": "Print"
+  },
+  {
+    "name": "The Sea Creatures issue of Whalbone Magazine",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 5,
+    "year": 2021,
+    "image": "assets/archive-items/boston-magazine.png",
+    "type": "Magazine"
+  },
+  {
+    "name": "Copy of American Cinematographer magazine",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 10,
+    "year": 2023,
+    "image": "assets/archive-items/boston-magazine-2.png",
+    "type": "Magazine"
+  },
+  {
+    "name": "Nine Ways of Looking at Thirteen Ways of Looking at a Blackbird",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 3,
+    "year": 2022,
+    "image": "assets/archive-items/boston-zine-2.png",
+    "type": "Magazine"
+  },
+  {
+    "name": "Jeff Bezos is my Interior Designer",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 3,
+    "year": 2022,
+    "image": "assets/archive-items/boston-zine.png",
+    "type": "Magazine"
+  },
+  {
+    "name": "Vintage Postcard of Chamonix",
+    "country": "FR",
+    "city": "Chamonix",
+    "state": "",
+    "month": 6,
+    "year": 2023,
+    "image": "assets/archive-items/chamonix-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Vintage Poster of Chamonix",
+    "country": "FR",
+    "city": "Chamonix",
+    "state": "",
+    "month": 6,
+    "year": 2023,
+    "image": "assets/archive-items/chamonix-vintage-poster.png",
+    "type": "Poster"
+  },
+  {
+    "name": "Pamphlet for Dutch Design Week 2023",
+    "country": "NL",
+    "city": "Eindhoven",
+    "state": "",
+    "month": 10,
+    "year": 2023,
+    "image": "assets/archive-items/ddw-pamphlet-2.png",
+    "type": "Pamphlet"
+  },
+  {
+    "name": "Pamphlet for Dutch Design Week 2022",
+    "country": "NL",
+    "city": "Eindhoven",
+    "state": "",
+    "month": 10,
+    "year": 2022,
+    "image": "assets/archive-items/ddw-pamphlet.png",
+    "type": "Pamphlet"
+  },
+  {
+    "name": "Tread Softly Collage Poster",
+    "country": "IR",
+    "city": "Dublin",
+    "state": "",
+    "month": 3,
+    "year": 2022,
+    "image": "assets/archive-items/dublin-print.png",
+    "type": "Poster"
+  },
+  {
+    "name": "Are We Human? Notes on an Archeology of Design",
+    "country": "NL",
+    "city": "Eindhoven",
+    "state": "",
+    "month": 10,
+    "year": 2023,
+    "image": "assets/archive-items/eindhoven-book.jpg",
+    "type": "Book"
+  },
+  {
+    "name": "In Things DDW Business Card",
+    "country": "NL",
+    "city": "Eindhoven",
+    "state": "",
+    "month": 10,
+    "year": 2023,
+    "image": "assets/archive-items/eindhoven-business-card.png",
+    "type": "Business Card"
+  },
+  {
+    "name": "Residency for the People Sticker",
+    "country": "NL",
+    "city": "Eindhoven",
+    "state": "",
+    "month": 10,
+    "year": 2023,
+    "image": "assets/archive-items/eindhoven-sticker.png",
+    "type": "Sticker"
+  },
+  {
+    "name": "2020 Issue of Excelsior Magazine from NUHOC",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 4,
+    "year": 2020,
+    "image": "assets/archive-items/excelsior-magazine-2020.png",
+    "type": "Magazine"
+  },
+  {
+    "name": "2022 Issue of Excelsior Magazine from NUHOC",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 4,
+    "year": 2022,
+    "image": "assets/archive-items/excelsior-magazine-2022.png",
+    "type": "Magazine"
+  },
+  {
+    "name": "2023 Issue of Excelsior Magazine from NUHOC",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 4,
+    "year": 2023,
+    "image": "assets/archive-items/excelsior-magazine-2023.png",
+    "type": "Magazine"
+  },
+  {
+    "name": "Pamphlet and Map of Frank Lloyd Wright's Falling Water House",
+    "country": "USA",
+    "city": "Pittsburg",
+    "state": "PA",
+    "month": 5,
+    "year": 2023,
+    "image": "assets/archive-items/falling-water-pamphlet.png",
+    "type": "Pamphlet"
+  },
+  {
+    "name": "Poster of Gaudi's Casa Bottilo house in Barcelona",
+    "country": "ES",
+    "city": "Barcelona",
+    "state": "",
+    "month": 10,
+    "year": 2022,
+    "image": "assets/archive-items/gaudi-house-poster.png",
+    "type": "Poster"
+  },
+  {
+    "name": "Vintage Postcard of Geneva",
+    "country": "CH",
+    "city": "Geneva",
+    "state": "",
+    "month": 6,
+    "year": 2023,
+    "image": "assets/archive-items/geneva-postcard-2.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Postcard from Glacier National Park",
+    "country": "USA",
+    "city": "Kalispell",
+    "state": "MO",
+    "month": 7,
+    "year": 2023,
+    "image": "assets/archive-items/glacier-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Postercard from the Institute of Contemporay Art",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 5,
+    "year": 2022,
+    "image": "assets/archive-items/ica-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Leap Before You Look, Black Mountain College Poster",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 5,
+    "year": 2022,
+    "image": "assets/archive-items/ica-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Type Specimen from Familia Plomez",
+    "country": "ES",
+    "city": "Madrid",
+    "state": "",
+    "month": 11,
+    "year": 2022,
+    "image": "assets/archive-items/ie-type-print.png",
+    "type": "Poster"
+  },
+  {
+    "name": "Hand rolled prints from Familia Plomez",
+    "country": "ES",
+    "city": "Madrid",
+    "state": "",
+    "month": 11,
+    "year": 2022,
+    "image": "assets/archive-items/ie-type-print-2.png",
+    "type": "Poster"
+  },
+  {
+    "name": "Map for the John Muir Trail",
+    "country": "USA",
+    "city": "Kalispell",
+    "state": "MO",
+    "month": 7,
+    "year": 2023,
+    "image": "assets/archive-items/jmt-map.png",
+    "type": "Map"
+  },
+  {
+    "name": "Map of Madrid Urban Disctricts",
+    "country": "ES",
+    "city": "Madrid",
+    "state": "",
+    "month": 9,
+    "year": 2022,
+    "image": "assets/archive-items/madrid-map-2.png",
+    "type": "Map"
+  },
+  {
+    "name": "Map of Green Spaces in Madrid",
+    "country": "ES",
+    "city": "Madrid",
+    "state": "",
+    "month": 9,
+    "year": 2022,
+    "image": "assets/archive-items/madrid-map.png",
+    "type": "Map"
+  },
+  {
+    "name": "El Tercer Polo exhibit from the Thyssen-bornemisza Museum",
+    "country": "ES",
+    "city": "Madrid",
+    "state": "",
+    "month": 11,
+    "year": 2022,
+    "image": "assets/archive-items/madrid-museum-magazine.png",
+    "type": "Pamphlet"
+  },
+  {
+    "name": "El Tercer Polo exhibit from the Thyssen-bornemisza Museum",
+    "country": "ES",
+    "city": "Madrid",
+    "state": "",
+    "month": 11,
+    "year": 2022,
+    "image": "assets/archive-items/madrid-museum-magazine.png",
+    "type": "Pamphlet"
+  },
+  {
+    "name": "Postcard from Libros Para un Mundo Mejor",
+    "country": "ES",
+    "city": "Madrid",
+    "state": "",
+    "month": 11,
+    "year": 2022,
+    "image": "assets/archive-items/madrid-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Visualization of land use around Madrid",
+    "country": "ES",
+    "city": "Madrid",
+    "state": "",
+    "month": 10,
+    "year": 2022,
+    "image": "assets/archive-items/madrid-shared-map.png",
+    "type": "Map"
+  },
+  {
+    "name": "Visualization of population density of Madrid changes throughout the day",
+    "country": "ES",
+    "city": "Madrid",
+    "state": "",
+    "month": 10,
+    "year": 2022,
+    "image": "assets/archive-items/madrid-transformation-map.png",
+    "type": "Map"
+  },
+  {
+    "name": "Sprout - Brand Design BID Thesis from Orchida Ahmed",
+    "country": "ES",
+    "city": "Madrid",
+    "state": "",
+    "month": 5,
+    "year": 2023,
+    "image": "assets/archive-items/madrid-thesis.png",
+    "type": "Print"
+  },
+  {
+    "name": "IE University Typography Project titled 'I am ok'",
+    "country": "ES",
+    "city": "Madrid",
+    "state": "",
+    "month": 12,
+    "year": 2022,
+    "image": "assets/archive-items/madrid-type-project.png",
+    "type": "Sticker"
+  },
+  {
+    "name": "Welcome Malcolm sketch by Victor Sizaret",
+    "country": "ES",
+    "city": "Madrid",
+    "state": "",
+    "month": 12,
+    "year": 2023,
+    "image": "assets/archive-items/madrid-type-project.png",
+    "type": "Sticker"
+  },
+  {
+    "name": "Geographic Map of the Swiss Alps around the Matterhorn",
+    "country": "CH",
+    "city": "Zermatt",
+    "state": "",
+    "month": 6,
+    "year": 2023,
+    "image": "assets/archive-items/matterhorn-map.png",
+    "type": "Map"
+  },
+  {
+    "name": "A Portable Critique of Visual Design",
+    "country": "IT",
+    "city": "Milan",
+    "state": "",
+    "month": 6,
+    "year": 2021,
+    "image": "assets/archive-items/milan-book.jpg",
+    "type": "Book"
+  },
+  {
+    "name": "Museum ticket for the Paolo di Paolo photography exhibit in Milan",
+    "country": "IT",
+    "city": "Milan",
+    "state": "",
+    "month": 6,
+    "year": 2021,
+    "image": "assets/archive-items/milan-museum-ticket.png",
+    "type": "Ticket"
+  },
+  {
+    "name": "Business Card for Lake Baked coffe shop in Kalispell, MO",
+    "country": "USA",
+    "city": "Kalispell",
+    "state": "MO",
+    "month": 7,
+    "year": 2023,
+    "image": "assets/archive-items/montana-business-card.png",
+    "type": "Business Card"
+  },
+  {
+    "name": "Business Card for Montana Earthware Pottery Bakeware outside Kalispell, MO",
+    "country": "USA",
+    "city": "Kalispell",
+    "state": "MO",
+    "month": 7,
+    "year": 2023,
+    "image": "assets/archive-items/montana-business-card-2.png",
+    "type": "Business Card"
+  },
+  {
+    "name": "Newspaper page from art exhibit in Madrid",
+    "country": "ES",
+    "city": "Madrid",
+    "state": "",
+    "month": 10,
+    "year": 2022,
+    "image": "assets/archive-items/newspaper-poster.png",
+    "type": "Print"
+  },
+  {
+    "name": "Map of the Pemigewasset loop in the White Mountains",
+    "country": "USA",
+    "city": "Lincoln",
+    "state": "NH",
+    "month": 5,
+    "year": 2021,
+    "image": "assets/archive-items/pemi-map.png",
+    "type": "Map"
+  },
+  {
+    "name": "Grid Systems by Josef Muller-Brockman",
+    "country": "USA",
+    "city": "Philadelphia",
+    "state": "PA",
+    "month": 12,
+    "year": 2022,
+    "image": "assets/archive-items/philadelphia-book-2.jpg",
+    "type": "Book"
+  },
+  {
+    "name": "Laws o Simplicity by John Maeda",
+    "country": "USA",
+    "city": "Philadelphia",
+    "state": "PA",
+    "month": 11,
+    "year": 2021,
+    "image": "assets/archive-items/philadelphia-book.jpg",
+    "type": "Book"
+  },
+  {
+    "name": "Map of Philmont Scout Ranch in Northern New Mexico",
+    "country": "USA",
+    "city": "Philmont",
+    "state": "NM",
+    "month": 7,
+    "year": 2016,
+    "image": "assets/archive-items/philmont-map.png",
+    "type": "Map"
+  },
+  {
+    "name": "Postcard of Porto",
+    "country": "PR",
+    "city": "Porto",
+    "state": "",
+    "month": 12,
+    "year": 2022,
+    "image": "assets/archive-items/porto-postcard-2.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Get Shit Done Sticker",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 1,
+    "year": 2023,
+    "image": "assets/archive-items/recur-sticker.png",
+    "type": "Sticker"
+  },
+  {
+    "name": "Issue 2 of Re_Kin Magazine from Daryl Smith",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 10,
+    "year": 2023,
+    "image": "assets/archive-items/rekin-magazine.png",
+    "type": "Magazine"
+  },
+  {
+    "name": "Special Edition Re_Kin Postcard",
+    "country": "USA",
+    "city": "Boston",
+    "state": "MA",
+    "month": 12,
+    "year": 2023,
+    "image": "assets/archive-items/rekin-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Bracelet from the Yellowsqaure Hostel in Rome",
+    "country": "IT",
+    "city": "Rome",
+    "state": "",
+    "month": 6,
+    "year": 2021,
+    "image": "assets/archive-items/rome-hostel-bracelet.png",
+    "type": "Bracelet"
+  },
+  {
+    "name": "Luggage Tag from the Yellowsqaure Hostel in Rome",
+    "country": "IT",
+    "city": "Rome",
+    "state": "",
+    "month": 6,
+    "year": 2021,
+    "image": "assets/archive-items/rome-hostel-tag.png",
+    "type": "Ticket"
+  },
+  {
+    "name": "Small postcard print from Rotterdam",
+    "country": "NL",
+    "city": "Rotterdam",
+    "state": "",
+    "month": 5,
+    "year": 2023,
+    "image": "assets/archive-items/rotterdam-print.png",
+    "type": "Print"
+  },
+  {
+    "name": "Print of Sala Equis Theater and Bar in Madrid",
+    "country": "ES",
+    "city": "Madrid",
+    "state": "",
+    "month": 6,
+    "year": 2023,
+    "image": "assets/archive-items/sala-equis.png",
+    "type": "Print"
+  },
+  {
+    "name": "Grand Hotel Du Cervin Business Card",
+    "country": "CH",
+    "city": "Saint-Luc",
+    "state": "",
+    "month": 6,
+    "year": 2023,
+    "image": "assets/archive-items/switzerland-business-card.png",
+    "type": "Business Card"
+  },
+  {
+    "name": "Vintage Postcard of Tangier, Morocco",
+    "country": "MO",
+    "city": "Tangier",
+    "state": "",
+    "month": 9,
+    "year": 2022,
+    "image": "assets/archive-items/tangier-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Type Collage Postcard from the Tate Modern",
+    "country": "UK",
+    "city": "London",
+    "state": "",
+    "month": 8,
+    "year": 2022,
+    "image": "assets/archive-items/tate-type-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Custom art print of a city street in Tolouse",
+    "country": "FR",
+    "city": "Toulouse",
+    "state": "",
+    "month": 5,
+    "year": 2023,
+    "image": "assets/archive-items/tolouse-print.png",
+    "type": "Print"
+  },
+  {
+    "name": "Canadian Geese Art Print",
+    "country": "CA",
+    "city": "Montreal",
+    "state": "",
+    "month": 3,
+    "year": 2023,
+    "image": "assets/archive-items/tremblant-goose-print.png",
+    "type": "Print"
+  },
+  {
+    "name": "Vintage Postcard of Utrecht",
+    "country": "NL",
+    "city": "Utrecht",
+    "state": "",
+    "month": 5,
+    "year": 2023,
+    "image": "assets/archive-items/utrecht-photo-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Utrecht Postcard",
+    "country": "NL",
+    "city": "Utrecht",
+    "state": "",
+    "month": 5,
+    "year": 2023,
+    "image": "assets/archive-items/utrecht-postcard-2.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Business Card of Tattoo Artist in Venice",
+    "country": "IT",
+    "city": "Venice",
+    "state": "",
+    "month": 7,
+    "year": 2021,
+    "image": "assets/archive-items/venice-business-card.png",
+    "type": "Business Card"
+  },
+  {
+    "name": "Ticket for Venice transit",
+    "country": "IT",
+    "city": "Venice",
+    "state": "",
+    "month": 7,
+    "year": 2021,
+    "image": "assets/archive-items/venice-ticket.png",
+    "type": "Ticket"
+  },
+  {
+    "name": "Photo Postcard of Verbier Switzerland",
+    "country": "CH",
+    "city": "Verbier",
+    "state": "",
+    "month": 6,
+    "year": 2023,
+    "image": "assets/archive-items/verbier-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Damaged Postcard of Vermillion Valley Ranch Along the JMT",
+    "country": "USA",
+    "city": "Vermillion Valley",
+    "state": "CA",
+    "month": 8,
+    "year": 2023,
+    "image": "assets/archive-items/vvr-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Photo Postcard on the Peak of Mt. Whitney",
+    "country": "USA",
+    "city": "Mt. Whitney",
+    "state": "CA",
+    "month": 8,
+    "year": 2023,
+    "image": "assets/archive-items/whitney-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Geological Sticker of Mt. Whitney",
+    "country": "USA",
+    "city": "Mt. Whitney",
+    "state": "CA",
+    "month": 8,
+    "year": 2023,
+    "image": "assets/archive-items/whitney-sticker.png",
+    "type": "Sticker"
+  },
+  {
+    "name": "Ansel Adams Photo Postcard of Yosemite National Park",
+    "country": "USA",
+    "city": "Yosemite",
+    "state": "CA",
+    "month": 8,
+    "year": 2023,
+    "image": "assets/archive-items/yosemite-postcard.png",
+    "type": "Postcard"
+  },
+  {
+    "name": "Vintage Postcard of Zermatt",
+    "country": "CH",
+    "city": "Zermatt",
+    "state": "",
+    "month": 6,
+    "year": 2023,
+    "image": "assets/archive-items/zermatt-postcard.png",
+    "type": "Postcard"
+  }
+]

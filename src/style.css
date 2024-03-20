@@ -1,0 +1,125 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+#root {
+  width: 98.5vw;
+}
+
+#topContainer {
+  height: 74vh;
+  display: flex;
+}
+
+#legend {
+  width: 20vw;
+}
+
+#readingMonths {
+  margin-top: 3vh;
+}
+
+.lGroup {
+  margin-bottom: 2vh;
+}
+
+#title {
+  margin-top: 0;
+  margin-bottom: 2vh;
+  font-weight: bold;
+  line-height: 20pt;
+}
+
+.subTitle {
+  margin-bottom: 0vh;
+  font-weight: normal;
+}
+
+#readingTime {
+  display: flex;
+  margin-top: 2vh;
+}
+
+#description {
+  margin: 0vh;
+  font-size: 10pt;
+}
+
+#artifactTypes {
+  list-style: none;
+  padding-left: 0;
+  font-size: 10pt;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.type {
+  display: flex;
+}
+
+.artifact {
+  margin-top: 2px;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+
+}
+
+#focusedVis {
+  display: flex;
+  width: 80vw;
+}
+
+#focused {
+  transition: all 0.25s ease-out;
+}
+
+.artifact:hover {
+  cursor: pointer;
+}
+
+#emptyVisText {
+  margin-left: 5vw;
+  margin-top: 35vh;
+  opacity: 50%;
+  font-size: 12pt;
+}
+
+#emptyHoverText {
+  margin-left: 0vw;
+  margin-top: 35vh;
+  opacity: 50%;
+  font-size: 12pt;
+}
+
+#bottomVis {
+  width: 98.5vw;
+  height: 20vh;
+}
+
+.summary {
+  opacity: 0.25;
+  transition: opacity 0.25s ease-out;
+}
+
+.summary:hover {
+  opacity: 1;
+  cursor: pointer; 
+}
+
+#viewArtifact {
+  width: 24vw;
+  height: 75vh
+}
+
+#artifactSummaryImage {
+  max-height: 60vh;
+  max-width: 30vw;
+}
+
+#artifactSummaryText {
+  font-style: italic;
+  font-size: 10pt;
+}
+
