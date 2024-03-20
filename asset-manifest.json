@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/designer-archive/static/css/main.ea28ae96.css",
-    "main.js": "/designer-archive/static/js/main.b49fbf5c.js",
+    "main.js": "/designer-archive/static/js/main.49c6a226.js",
     "static/media/madrid-shared-map.png": "/designer-archive/static/media/madrid-shared-map.31c8dd5e72db3e7752db.png",
     "static/media/pemi-map.png": "/designer-archive/static/media/pemi-map.aa58def490ba79b45e8c.png",
     "static/media/philmont-map.png": "/designer-archive/static/media/philmont-map.79a5a1ea9d7b965a9f3f.png",
@@ -57,7 +57,7 @@
     "static/media/eindhoven-sticker.png": "/designer-archive/static/media/eindhoven-sticker.2ec1ea49a5ac153a3011.png",
     "static/media/dublin-print.png": "/designer-archive/static/media/dublin-print.4649718257ec36150a60.png",
     "static/media/montana-business-card.png": "/designer-archive/static/media/montana-business-card.a0e9732413997874a8eb.png",
-    "static/media/malcoml-print.png": "/designer-archive/static/media/malcoml-print.aa5b84dd164901314d23.png",
+    "static/media/malcolm-print.png": "/designer-archive/static/media/malcolm-print.aa5b84dd164901314d23.png",
     "static/media/rotterdam-print.png": "/designer-archive/static/media/rotterdam-print.45ee4ccf974341005859.png",
     "static/media/venice-ticket.png": "/designer-archive/static/media/venice-ticket.0da413f92a321550c48d.png",
     "static/media/boston-zine-2.png": "/designer-archive/static/media/boston-zine-2.f41c43670a152514a2ce.png",
@@ -91,10 +91,10 @@
     "static/media/year-time.svg": "/designer-archive/static/media/year-time.d84542bb4d3641de18cb49acaac8dfb0.svg",
     "index.html": "/designer-archive/index.html",
     "main.ea28ae96.css.map": "/designer-archive/static/css/main.ea28ae96.css.map",
-    "main.b49fbf5c.js.map": "/designer-archive/static/js/main.b49fbf5c.js.map"
+    "main.49c6a226.js.map": "/designer-archive/static/js/main.49c6a226.js.map"
   },
   "entrypoints": [
     "static/css/main.ea28ae96.css",
-    "static/js/main.b49fbf5c.js"
+    "static/js/main.49c6a226.js"
   ]
 }
