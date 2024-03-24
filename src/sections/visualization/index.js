@@ -68,6 +68,7 @@ export function Visualization(props) {
                   props.data[year].sort((a, b) => a.month - b.month).map((artifact, i, arr) => {
                     return (
                       <Node
+                        seed={year + artifact.month + i}
                         r={artifactSize}
                         updateHover={updateHover}
                         cx={boundaries}
