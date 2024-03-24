@@ -1,15 +1,8 @@
-import { DashedCircle } from "../../components/dashed-circle"
 import { colors } from "../../utils"
 import { ReactComponent as Time } from "../../assets/year-time.svg"
 
 export function Legend(props) {
   const width = window.innerWidth * 0.25
-  const legendDashedCircles = [
-    { r: 8, t: "Jan" },
-    { r: 22 },
-    { r: 36 },
-    { r: 46, t: "Dec" }
-  ]
 
   return (
     <div id="legend">
@@ -55,27 +48,6 @@ export function Legend(props) {
             xmlns="http://www.w3.org/2000/svg"
             id="readingMonths"
           >
-            {
-              legendDashedCircles.map((cr, i) => {
-                const opacity = i === 0 || i === legendDashedCircles.length - 1 ? 1 : 0.25
-                const largestRadius = legendDashedCircles[legendDashedCircles.length - 1].r
-                const textPadding = 15
-                return (
-                  <DashedCircle
-                    key={`legend-dashed-${i}`}
-                    radius={cr.r}
-                    fill="none"
-                    opacity={opacity}
-                    text={cr.t ? cr.t : ""}
-                    width={width}
-                    x={largestRadius}
-                    y={largestRadius + 5}
-                    textX={largestRadius}
-                    textY={largestRadius + cr.r + textPadding}
-                  />
-                )
-              })
-            }
           </svg>
         </div>
       </div>
