@@ -1,7 +1,7 @@
 [
   {
     "name": "Map of the Adirondack Mountains",
-    "country": "USA",
+    "country": "US",
     "city": "Southampton",
     "state": "NJ",
     "month": 5,
@@ -81,7 +81,7 @@
   },
   {
     "name": "Terra Forma: A Book of Speculative Maps",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 3,
@@ -91,7 +91,7 @@
   },
   {
     "name": "Speculative Everything - Design, Fiction, and Social Dreaming",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 5,
@@ -101,7 +101,7 @@
   },
   {
     "name": "Black & White art print of a street in Boston",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 10,
@@ -111,7 +111,7 @@
   },
   {
     "name": "Color art print of a street in Boston",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 10,
@@ -121,7 +121,7 @@
   },
   {
     "name": "The Sea Creatures issue of Whalbone Magazine",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 5,
@@ -131,7 +131,7 @@
   },
   {
     "name": "Copy of American Cinematographer magazine",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 10,
@@ -141,7 +141,7 @@
   },
   {
     "name": "Nine Ways of Looking at Thirteen Ways of Looking at a Blackbird",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 3,
@@ -151,7 +151,7 @@
   },
   {
     "name": "Jeff Bezos is my Interior Designer",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 3,
@@ -201,7 +201,7 @@
   },
   {
     "name": "Tread Softly Collage Poster",
-    "country": "IR",
+    "country": "IE",
     "city": "Dublin",
     "state": "",
     "month": 3,
@@ -241,7 +241,7 @@
   },
   {
     "name": "2020 Issue of Excelsior Magazine from NUHOC",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 4,
@@ -251,7 +251,7 @@
   },
   {
     "name": "2022 Issue of Excelsior Magazine from NUHOC",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 4,
@@ -261,7 +261,7 @@
   },
   {
     "name": "2023 Issue of Excelsior Magazine from NUHOC",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 4,
@@ -271,7 +271,7 @@
   },
   {
     "name": "Pamphlet and Map of Frank Lloyd Wright's Falling Water House",
-    "country": "USA",
+    "country": "US",
     "city": "Pittsburg",
     "state": "PA",
     "month": 5,
@@ -301,7 +301,7 @@
   },
   {
     "name": "Postcard from Glacier National Park",
-    "country": "USA",
+    "country": "US",
     "city": "Kalispell",
     "state": "MO",
     "month": 7,
@@ -311,7 +311,7 @@
   },
   {
     "name": "Postercard from the Institute of Contemporay Art",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 5,
@@ -321,13 +321,13 @@
   },
   {
     "name": "Leap Before You Look, Black Mountain College Poster",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 5,
     "year": 2022,
-    "image": "assets/archive-items/ica-postcard.png",
-    "type": "Postcard"
+    "image": "assets/archive-items/ica-poster.png",
+    "type": "Poster"
   },
   {
     "name": "Type Specimen from Familia Plomez",
@@ -351,7 +351,7 @@
   },
   {
     "name": "Map for the John Muir Trail",
-    "country": "USA",
+    "country": "US",
     "city": "Kalispell",
     "state": "MO",
     "month": 7,
@@ -491,7 +491,7 @@
   },
   {
     "name": "Business Card for Lake Baked coffe shop in Kalispell, MO",
-    "country": "USA",
+    "country": "US",
     "city": "Kalispell",
     "state": "MO",
     "month": 7,
@@ -501,7 +501,7 @@
   },
   {
     "name": "Business Card for Montana Earthware Pottery Bakeware outside Kalispell, MO",
-    "country": "USA",
+    "country": "US",
     "city": "Kalispell",
     "state": "MO",
     "month": 7,
@@ -521,7 +521,7 @@
   },
   {
     "name": "Map of the Pemigewasset loop in the White Mountains",
-    "country": "USA",
+    "country": "US",
     "city": "Lincoln",
     "state": "NH",
     "month": 5,
@@ -531,7 +531,7 @@
   },
   {
     "name": "Grid Systems by Josef Muller-Brockman",
-    "country": "USA",
+    "country": "US",
     "city": "Philadelphia",
     "state": "PA",
     "month": 12,
@@ -541,7 +541,7 @@
   },
   {
     "name": "Laws o Simplicity by John Maeda",
-    "country": "USA",
+    "country": "US",
     "city": "Philadelphia",
     "state": "PA",
     "month": 11,
@@ -551,7 +551,7 @@
   },
   {
     "name": "Map of Philmont Scout Ranch in Northern New Mexico",
-    "country": "USA",
+    "country": "US",
     "city": "Philmont",
     "state": "NM",
     "month": 7,
@@ -571,7 +571,7 @@
   },
   {
     "name": "Get Shit Done Sticker",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 1,
@@ -581,7 +581,7 @@
   },
   {
     "name": "Issue 2 of Re_Kin Magazine from Daryl Smith",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 10,
@@ -591,7 +591,7 @@
   },
   {
     "name": "Special Edition Re_Kin Postcard",
-    "country": "USA",
+    "country": "US",
     "city": "Boston",
     "state": "MA",
     "month": 12,
@@ -651,7 +651,7 @@
   },
   {
     "name": "Vintage Postcard of Tangier, Morocco",
-    "country": "MO",
+    "country": "MA",
     "city": "Tangier",
     "state": "",
     "month": 9,
@@ -741,7 +741,7 @@
   },
   {
     "name": "Damaged Postcard of Vermillion Valley Ranch Along the JMT",
-    "country": "USA",
+    "country": "US",
     "city": "Vermillion Valley",
     "state": "CA",
     "month": 8,
@@ -751,7 +751,7 @@
   },
   {
     "name": "Photo Postcard on the Peak of Mt. Whitney",
-    "country": "USA",
+    "country": "US",
     "city": "Mt. Whitney",
     "state": "CA",
     "month": 8,
@@ -761,7 +761,7 @@
   },
   {
     "name": "Geological Sticker of Mt. Whitney",
-    "country": "USA",
+    "country": "US",
     "city": "Mt. Whitney",
     "state": "CA",
     "month": 8,
@@ -771,7 +771,7 @@
   },
   {
     "name": "Ansel Adams Photo Postcard of Yosemite National Park",
-    "country": "USA",
+    "country": "US",
     "city": "Yosemite",
     "state": "CA",
     "month": 8,
