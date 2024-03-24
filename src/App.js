@@ -1,9 +1,8 @@
-import { BottomVisualization } from './sections/bottom-visualization';
-import { FocusedVisualization } from './sections/focused-visualization';
 import { Legend } from './sections/legend';
 import data from "./data.json"
 import './style.css';
 import { useState } from 'react';
+import { Visualization } from './sections/focused-visualization/visualization';
 
 function App() {
   const [selected, updateSelected] = useState('NA')
@@ -24,24 +23,16 @@ function App() {
     return u
   }, {})
 
-  const focusedData = selected !== "NA" ? sorted[selected].sort((a, b) => a.month - b.month) : []
-
   return (
     <div className="App">
       <div id="topContainer">
         <Legend types={uniqueTypes}/>
-        <FocusedVisualization
+        <Visualization
           year={selected}
-          data={focusedData}
+          data={sorted}
           selected={selected}
         />
       </div>
-      <BottomVisualization
-        years={Object.keys(sorted)}
-        selected={selected}
-        data={sorted}
-        updateSelected={updateSelected}
-      />
     </div>
   );
 }
