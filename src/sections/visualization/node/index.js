@@ -4,17 +4,7 @@ export function Node(props) {
   // Calculates the angle for the artifact
   const predictableRng = new Math.seedrandom(props.seed)
   let sectionAngle = predictableRng() * 30
-  // for (let j = props.index - 1; j >= 0; j--) {
-  //   if (props.arr[j].month !== props.artifact.month) {
-  //     break;
-  //   } else {
-  //     sectionAngle += 3 + (predictableRng() + 5)
-  //   }
-  // }
-  // const angle = ((30 * props.artifact.month - 1) + sectionAngle) - 115
-
   const angle = 30 * props.artifact.month + sectionAngle - 120
-  console.log(angle, 30 * props.artifact.month)
 
   // calculates the previous month to find the angle to place the artifact along the arc
   const pos = parametricEquation(props.cx, props.cy, props.ringRadius, angle)
