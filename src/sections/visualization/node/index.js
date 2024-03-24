@@ -18,6 +18,7 @@ export function Node(props) {
       cy={pos[1]}
       onPointerOver={() => props.updateHover(props.artifact)}
       onPointerOut={() => props.updateHover()}
+      opacity={props.opacity}
     />
   )
 }

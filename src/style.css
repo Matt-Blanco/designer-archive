@@ -125,3 +125,19 @@ html {
   font-size: 10pt;
 }
 
+.cls-1 {
+  fill: transparent;
+  transition: all 0.25s ease-out;
+  opacity: 40%;
+  stroke: #000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.cls-1:hover {
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  fill: black;
+  opacity: 15%;
+  stroke: #000;
+}

@@ -77,6 +77,7 @@ export function Visualization(props) {
                         artifact={artifact}
                         arr={arr}
                         index={i}
+                        opacity={props.filterCountry ? props.filterCountry === artifact.country ? 1 : 0.25  : 1}
                       />
                     )
                   })

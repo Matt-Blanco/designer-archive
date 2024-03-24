@@ -1,9 +1,7 @@
 import { colors } from "../../utils"
-import { ReactComponent as Time } from "../../assets/year-time.svg"
+import { Map } from "../../components/map"
 
 export function Legend(props) {
-  const width = window.innerWidth * 0.25
-
   return (
     <div id="legend">
       <h1 id="title">
@@ -38,17 +36,12 @@ export function Legend(props) {
       </div>
       <div className="lGroup">
         <h5 className="subTitle">
-          Reading Time
+          From {props.filterCountry ? props.filterCountry : ""}
         </h5>
         <div id="readingTime">
-          <Time />
-          <svg
-            width={width}
-            height={300}
-            xmlns="http://www.w3.org/2000/svg"
-            id="readingMonths"
-          >
-          </svg>
+          <Map
+            updateHoverCountry={props.updateHover}
+          />
         </div>
       </div>
     </div>
