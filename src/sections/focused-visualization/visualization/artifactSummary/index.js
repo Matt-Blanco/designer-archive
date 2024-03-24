@@ -1,5 +1,4 @@
 export function ArtifactSummary(props) {
-  console.log(props.artifact.image)
   const source = require(`./../../../../${props.artifact.image}`);
 
   return (
@@ -10,7 +9,7 @@ export function ArtifactSummary(props) {
         <br />
         Obtained in: {props.artifact.city}, {props.artifact.country}
         <br />
-        Date Obtained: {props.artifact.month}, {props.artifact.year}
+        Date Obtained: {props.artifact.month} / {props.artifact.year}
       </p>
     </>
   )
