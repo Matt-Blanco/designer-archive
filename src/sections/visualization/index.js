@@ -2,6 +2,10 @@ import { useState } from "react"
 import { DashedCircle } from "../../components/dashed-circle"
 import { ArtifactSummary } from "./artifactSummary"
 import { Node } from "./node"
+import { Line } from "../../components/line"
+import { parametricEquation } from "../../utils"
+
+const months = ["Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
 
 export function Visualization(props) {
@@ -18,6 +22,26 @@ export function Visualization(props) {
   return (
     <div id="focusedVisualization">
       <svg width={largestRadius * 2 + margin * 2} height={height}>
+        {
+          months.map((month, i) => {
+            const angle = 30 * (i + 1) - 90
+            const tPos = parametricEquation(boundaries, boundaries - (margin / 2), largestRadius + 25, angle)
+            const lPos = parametricEquation(boundaries, boundaries - (margin / 2), largestRadius + 20, angle)
+
+            return (
+              <Line
+                x1={boundaries}
+                y1={boundaries - margin / 2}
+                x2={lPos[0]}
+                y2={lPos[1]}
+                opacity={0.25}
+                text={month}
+                textX={tPos[0]}
+                textY={tPos[1]}
+              />
+            )
+          })
+        }
         {
           rings.map((year, i) => {
             const radius = ((i + 1) * initialRadius)
