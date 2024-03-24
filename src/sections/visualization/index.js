@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { DashedCircle } from "../../../components/dashed-circle"
+import { DashedCircle } from "../../components/dashed-circle"
 import { ArtifactSummary } from "./artifactSummary"
 import { Node } from "./node"
 

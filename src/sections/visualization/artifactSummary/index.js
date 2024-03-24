@@ -1,5 +1,5 @@
 export function ArtifactSummary(props) {
-  const source = require(`./../../../../${props.artifact.image}`);
+  const source = require(`./../../../${props.artifact.image}`);
 
   return (
     <>

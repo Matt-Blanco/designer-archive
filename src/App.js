@@ -1,12 +1,9 @@
 import { Legend } from './sections/legend';
 import data from "./data.json"
 import './style.css';
-import { useState } from 'react';
-import { Visualization } from './sections/focused-visualization/visualization';
+import { Visualization } from './sections/visualization';
 
 function App() {
-  const [selected, updateSelected] = useState('NA')
-
   const uniqueTypes = data.reduce((u, curr) => {
     if (!u.includes(curr.type)) {
       u.push(curr.type)
@@ -28,9 +25,7 @@ function App() {
       <div id="topContainer">
         <Legend types={uniqueTypes}/>
         <Visualization
-          year={selected}
           data={sorted}
-          selected={selected}
         />
       </div>
     </div>

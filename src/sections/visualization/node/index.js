@@ -1,4 +1,4 @@
-import { colors, parametricEquation } from "../../../../utils";
+import { colors, parametricEquation } from "../../../utils";
 
 export function Node(props) {
   // Calculates the angle for the artifact
