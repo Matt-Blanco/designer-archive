@@ -2,6 +2,7 @@ import { Legend } from './sections/legend';
 import data from "./data.json"
 import './style.css';
 import { Visualization } from './sections/visualization';
+import { useState } from 'react';
 
 function App() {
   const uniqueTypes = data.reduce((u, curr) => {
@@ -20,11 +21,18 @@ function App() {
     return u
   }, {})
 
+  const [filterCountry, updateHover] = useState()
+
   return (
     <div className="App">
       <div id="topContainer">
-        <Legend types={uniqueTypes}/>
+        <Legend
+          types={uniqueTypes}
+          filterCountry={filterCountry}
+          updateHover={updateHover}
+        />
         <Visualization
+          filterCountry={filterCountry}
           data={sorted}
         />
       </div>
