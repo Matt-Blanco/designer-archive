@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/designer-archive/static/css/main.ea28ae96.css",
-    "main.js": "/designer-archive/static/js/main.49c6a226.js",
+    "main.css": "/designer-archive/static/css/main.e6a2bde2.css",
+    "main.js": "/designer-archive/static/js/main.58ad33d4.js",
     "static/media/madrid-shared-map.png": "/designer-archive/static/media/madrid-shared-map.31c8dd5e72db3e7752db.png",
     "static/media/pemi-map.png": "/designer-archive/static/media/pemi-map.aa58def490ba79b45e8c.png",
     "static/media/philmont-map.png": "/designer-archive/static/media/philmont-map.79a5a1ea9d7b965a9f3f.png",
@@ -88,13 +88,13 @@
     "static/media/recur-sticker.png": "/designer-archive/static/media/recur-sticker.ff7a3cc1e12d2445bb9f.png",
     "static/media/boston-book-2.jpg": "/designer-archive/static/media/boston-book-2.0560f862fc82aa2f1769.jpg",
     "static/media/eindhoven-book.jpg": "/designer-archive/static/media/eindhoven-book.313f9a1ef57efecab61d.jpg",
-    "static/media/year-time.svg": "/designer-archive/static/media/year-time.d84542bb4d3641de18cb49acaac8dfb0.svg",
+    "static/media/year-time.svg": "/designer-archive/static/media/year-time.d84542bb4d3641de18cb.svg",
     "index.html": "/designer-archive/index.html",
-    "main.ea28ae96.css.map": "/designer-archive/static/css/main.ea28ae96.css.map",
-    "main.49c6a226.js.map": "/designer-archive/static/js/main.49c6a226.js.map"
+    "main.e6a2bde2.css.map": "/designer-archive/static/css/main.e6a2bde2.css.map",
+    "main.58ad33d4.js.map": "/designer-archive/static/js/main.58ad33d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea28ae96.css",
-    "static/js/main.49c6a226.js"
+    "static/css/main.e6a2bde2.css",
+    "static/js/main.58ad33d4.js"
   ]
 }
