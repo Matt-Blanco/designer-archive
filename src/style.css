@@ -128,7 +128,7 @@ html {
 .cls-1 {
   fill: transparent;
   transition: all 0.25s ease-out;
-  opacity: 40%;
+  opacity: 80%;
   stroke: #000;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -138,6 +138,6 @@ html {
   cursor: pointer;
   transition: all 0.25s ease-out;
   fill: black;
-  opacity: 15%;
+  opacity: 100%;
   stroke: #000;
 }
