@@ -1,15 +1,15 @@
 export const colors = {
-  "Map": "#134999",
-  "Postcard": "#8c6383",
-  "Print": "#3f3f3f",
-  "Magazine": "#4f4f4f",
-  "Poster": "#404f33",
-  "Pamphlet": "#182f5b",
-  "Business Card": "#004419",
-  "Sticker": "#a82f41",
-  "Ticket": "#cc5f30",
-  "Book": "#81bdf9",
-  "Bracelet": "#03040c"
+  "Map": "#2d36bc",
+  "Postcard": "#7eb0d5",
+  "Print": "#b33dc6",
+  "Magazine": "#27aeef",
+  "Poster": "#87bc45",
+  "Pamphlet": "#bdcf32",
+  "Business Card": "#ffa300",
+  "Sticker": "#ea5545",
+  "Ticket": "#b2e061",
+  "Book": "#f46a9b",
+  "Bracelet": "#00bfa0"
 }
 
 export function parametricEquation(cx, cy, r, a) {
