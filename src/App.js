@@ -21,18 +21,31 @@ function App() {
     return u
   }, {})
 
-  const [filterCountry, updateHover] = useState()
+  const [hoverCountry, updateHover] = useState()
+  const [selectedCountries, updateSelectedCountries] = useState([])
+
+  const updateCountries = (country) => {
+    if (selectedCountries.includes(country)) {
+      updateSelectedCountries(selectedCountries.filter(co => co !== country))
+    } else {
+      selectedCountries.push(country)
+      updateSelectedCountries([...selectedCountries])
+    }
+  }
 
   return (
     <div className="App">
       <div id="topContainer">
         <Legend
           types={uniqueTypes}
-          filterCountry={filterCountry}
+          hoverCountry={hoverCountry}
           updateHover={updateHover}
+          selectedCountries={selectedCountries}
+          updateCountries={updateCountries}
         />
         <Visualization
-          filterCountry={filterCountry}
+          hoverCountry={hoverCountry}
+          selectedCountries={selectedCountries}
           data={sorted}
         />
       </div>
