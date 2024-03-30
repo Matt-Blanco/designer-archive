@@ -1,5 +1,5 @@
 const STYLES = {
-  width: 1,
+  width: 0.5,
   fill: "#ffffff",
   stroke: "black",
 }
