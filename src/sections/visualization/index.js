@@ -10,14 +10,39 @@ const months = ["Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "
 
 export function Visualization(props) {
   const width = window.innerWidth * 0.6
-  const height = window.innerHeight
+  const height = window.innerHeight * 0.95
   const margin = width * 0.05
-  const initialRadius = ((width - margin * 2) * 0.06)
+  const initialRadius = ((width - margin * 2) * 0.055)
   const rings = Object.keys(props.data)
   const largestRadius = initialRadius * rings.length - 1
   const artifactSize = 6
   const [hoverArtifact, updateHover] = useState()
   const boundaries = largestRadius + margin
+
+  const getNodeOpacity = (node) => {
+    if (hoverArtifact !== undefined) {
+      if (node.name === hoverArtifact.name) {
+        return 1
+      } else {
+        return 0.25
+      }
+    } 
+
+    if (props.hoverCountry) {
+      if (props.hoverCountry === node.country) {
+        return 1
+      } else {
+        return 0.25
+      }
+    } 
+
+    if (props.selectedCountries.includes(node.country)) {
+      return 1
+    } else if (props.selectedCountries.length > 0) {
+      return 0.25
+    }
+    return 1;
+  }
 
   return (
     <div id="focusedVisualization">
@@ -77,7 +102,7 @@ export function Visualization(props) {
                         artifact={artifact}
                         arr={arr}
                         index={i}
-                        opacity={props.filterCountry ? props.filterCountry === artifact.country ? 1 : 0.25  : 1}
+                        opacity={getNodeOpacity(artifact)}
                       />
                     )
                   })
