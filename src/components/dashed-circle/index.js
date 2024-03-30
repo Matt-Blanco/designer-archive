@@ -1,8 +1,8 @@
 const STYLES = {
-  width: 1,
+  width: 0.5,
   fill: "#ffffff",
   stroke: "black",
-  dashedArray: "10, 5"
+  dashedArray: "25, 20"
 }
 
 export function DashedCircle(props) {
