@@ -36,11 +36,14 @@ export function Legend(props) {
       </div>
       <div className="lGroup">
         <h5 className="subTitle">
-          From {props.filterCountry ? props.filterCountry : ""}
+          Filter Artifacts by Country
         </h5>
         <div id="readingTime">
           <Map
+            selectedCountries={props.selectedCountries}
+            updateCountries={props.updateCountries}
             updateHoverCountry={props.updateHover}
+            hoverCountry={props.hoverCountry}
           />
         </div>
       </div>
