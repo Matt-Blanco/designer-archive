@@ -4,6 +4,8 @@ html {
 
 #root {
   width: 98.5vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
 
 #topContainer {
@@ -13,6 +15,7 @@ html {
 
 #legend {
   width: 20vw;
+  margin-left: 2vw;
 }
 
 #readingMonths {
@@ -62,6 +65,7 @@ html {
   margin-top: 2px;
   width: 10px;
   height: 10px;
+  border-radius: 100%;
   margin-right: 5px;
 
 }
@@ -69,6 +73,7 @@ html {
 #focusedVisualization {
   display: flex;
   width: 80vw;
+  height: max-content;
 }
 
 #focused {
@@ -79,16 +84,9 @@ html {
   cursor: pointer;
 }
 
-#emptyVisText {
-  margin-left: 5vw;
-  margin-top: 35vh;
-  opacity: 50%;
-  font-size: 12pt;
-}
-
 #emptyHoverText {
-  margin-left: 0vw;
-  margin-top: 35vh;
+  margin-left: 6vw;
+  margin-top: 40vh;
   opacity: 50%;
   font-size: 12pt;
 }
@@ -110,8 +108,7 @@ html {
 }
 
 #viewArtifact {
-  width: 20vw;
-  height: 75vh
+  width: 22vw;
 }
 
 #artifactSummaryImage {
@@ -138,6 +135,14 @@ html {
   cursor: pointer;
   transition: all 0.25s ease-out;
   fill: black;
-  opacity: 100%;
+  opacity: 25%;
+  stroke: #000;
+}
+
+.selectedCountry {
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  fill: darkgray;
+  opacity: 25% !important;
   stroke: #000;
 }
