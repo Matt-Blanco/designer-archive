@@ -36,7 +36,7 @@ export function Legend(props) {
       </div>
       <div className="lGroup">
         <h5 className="subTitle">
-          Filter Artifacts by Country
+          Hover or Select Countries to Filter Artifacts by Country
         </h5>
         <div id="readingTime">
           <Map
