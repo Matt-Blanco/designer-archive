@@ -131,6 +131,14 @@ html {
   stroke-linejoin: round;
 }
 
+.selectedCountry {
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  fill: darkgray;
+  opacity: 25% !important;
+  stroke: #000;
+}
+
 .cls-1:hover {
   cursor: pointer;
   transition: all 0.25s ease-out;
@@ -139,10 +147,10 @@ html {
   stroke: #000;
 }
 
-.selectedCountry {
-  cursor: pointer;
-  transition: all 0.25s ease-out;
-  fill: darkgray;
-  opacity: 25% !important;
-  stroke: #000;
+#summaryType {
+  display: flex
+}
+
+#summaryType > span {
+  margin-right: 5px;
 }
