@@ -2,8 +2,10 @@ export function Map(props) {
 
   const getClassNames = (country) => {
     const classes = ['cls-1']
-    if (props.selectedCountries.includes(country)) {
+    if (props.selectedCountries.includes(country) || props.selectedCountries.length <= 0) {
       classes.push('selectedCountry')
+    } else {
+      classes.push('notSelectedCountry')
     }
     return classes.join(' ')
   }
@@ -11,8 +13,8 @@ export function Map(props) {
   return (
     <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 729.5 483.36">D
       <g id="Layer_1-2" data-name="Layer 1">
-        <path onPointerOut={() => props.updateHoverCountry()} onPointerOver={() => props.updateHoverCountry("AT")} id="AT" class="cls-1" d="m673.79,196.07l-.5,1.32,1.16,3.47-.33,4.3h-4.63l1.82,2.31-2.15,6.61-1.49,1.82-7.27.17-3.97,2.48-6.94-.83-12.07-2.81-2.15-3.47-8.1,1.82-.83,1.98-5.12-1.49-4.3-.33-3.8-1.98,1.16-2.48-.33-1.82,2.31-.5,4.46,2.81.99-2.81,7.27.5,5.79-1.82,3.97.33,2.81,2.15.66-1.82-1.65-6.78,2.81-1.32,2.64-4.79,6.28,3.47,4.3-4.3,2.81-.83,6.61,3.14,3.8-.5,3.97,1.98h0Z" />
-        <path onPointerOut={() => props.updateHoverCountry()} onPointerOver={() => props.updateHoverCountry("BE")} id="BE" class="cls-1" d="m584.36,173.42l-.66,6.94-2.15.33-.66,5.79-7.27-4.79-4.13.83-5.79-4.79-3.97-4.13-3.64-.17-1.32-3.64,6.45-1.98,5.95.83,7.44-2.15,5.12,4.46,4.63,2.48h0Z" />
+        <path onPointerOut={() => props.updateHoverCountry()} onPointerOver={() => props.updateHoverCountry("AT")} onPointerDown={() => props.updateCountries("AT")} className={getClassNames("AT")} id="AT" class="cls-1" d="m673.79,196.07l-.5,1.32,1.16,3.47-.33,4.3h-4.63l1.82,2.31-2.15,6.61-1.49,1.82-7.27.17-3.97,2.48-6.94-.83-12.07-2.81-2.15-3.47-8.1,1.82-.83,1.98-5.12-1.49-4.3-.33-3.8-1.98,1.16-2.48-.33-1.82,2.31-.5,4.46,2.81.99-2.81,7.27.5,5.79-1.82,3.97.33,2.81,2.15.66-1.82-1.65-6.78,2.81-1.32,2.64-4.79,6.28,3.47,4.3-4.3,2.81-.83,6.61,3.14,3.8-.5,3.97,1.98h0Z" />
+        <path onPointerOut={() => props.updateHoverCountry()} onPointerOver={() => props.updateHoverCountry("BE")} onPointerDown={() => props.updateCountries("BE")} className={getClassNames("BE")} id="BE" class="cls-1" d="m584.36,173.42l-.66,6.94-2.15.33-.66,5.79-7.27-4.79-4.13.83-5.79-4.79-3.97-4.13-3.64-.17-1.32-3.64,6.45-1.98,5.95.83,7.44-2.15,5.12,4.46,4.63,2.48h0Z" />
         <path class="cls-1" d="m329.9,149.2l3.4.9,4.7-.2-3.3,2.6-2,.4-5.5-2.7-.6-2.1,2.5-1.9.8,3Z" />
         <path class="cls-1" d="m39.09,147.12l-3.33.97-6.77-3.01v-2.36l-3.12-2.36.32-1.93-4.62-1.18.64-3.65,1.61-1.5,4.41,1.4,2.58,1.07,4.41.64.22,2.36.43,3.12,3.44,2.79-.22,3.65Z" />
         <path class="cls-1" d="m298.9,54.5l-3.6,3-1.7-.5-.1-1.7.4-.4,2.8-1.7,1.7.1.5,1.2Z" />
