@@ -67,7 +67,18 @@ html {
   height: 10px;
   border-radius: 100%;
   margin-right: 5px;
+  transition: all 0.25s ease-out;
 
+}
+
+.partialArtifactOpacity {
+  opacity: 25%;
+  transition: all 0.25s ease-out;
+}
+
+.fullArtifactOpacity {
+  opacity: 100%;
+  transition: all 0.25s ease-out;
 }
 
 #focusedVisualization {
@@ -123,9 +134,9 @@ html {
 }
 
 .cls-1 {
-  fill: transparent;
+  fill: darkgray;
   transition: all 0.25s ease-out;
-  opacity: 80%;
+  opacity: 25%;
   stroke: #000;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -135,6 +146,14 @@ html {
   cursor: pointer;
   transition: all 0.25s ease-out;
   fill: darkgray;
+  opacity: 25% !important;
+  stroke: #000;
+}
+
+.notSelectedCountry {
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  fill: transparent;
   opacity: 25% !important;
   stroke: #000;
 }
