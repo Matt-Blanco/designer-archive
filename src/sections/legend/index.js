@@ -46,6 +46,15 @@ export function Legend(props) {
             hoverCountry={props.hoverCountry}
           />
         </div>
+        <h5 className="subTitle">
+          Showing Artifacts From: 
+          {
+            props.hoverCountry ? 
+            ` ${props.hoverCountry}` :  
+            props.selectedCountries.length > 0 ? 
+            ` ${props.selectedCountries.sort().join(', ')}` : " AT, BE, CA, CH, CZ, DE, ES, FR, IE, IT, IS, MA, NL, PL, PT, UK, US, SI"
+          }
+        </h5>
       </div>
     </div>
   )
