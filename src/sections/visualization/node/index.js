@@ -10,7 +10,7 @@ export function Node(props) {
   const pos = parametricEquation(props.cx, props.cy, props.ringRadius, angle)
   return (
     <circle
-      className="artifact"
+      className={`artifact ${props.classes ? props.classes.join(' '): ''}`}
       key={`artifact-${props.year}-${props.index}`}
       r={props.r}
       fill={colors[props.artifact.type]}
