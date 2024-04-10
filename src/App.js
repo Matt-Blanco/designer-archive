@@ -47,6 +47,7 @@ function App() {
           hoverCountry={hoverCountry}
           selectedCountries={selectedCountries}
           data={sorted}
+          updateHoverCountry={updateHover}
         />
       </div>
     </div>

@@ -102,6 +102,7 @@ export function Visualization(props) {
                         arr={arr}
                         index={i}
                         classes={[getNodeClasses(artifact)]}
+                        updateHoverCountry={props.updateHoverCountry}
                       />
                     )
                   })

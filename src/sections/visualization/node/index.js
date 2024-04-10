@@ -8,6 +8,17 @@ export function Node(props) {
 
   // calculates the previous month to find the angle to place the artifact along the arc
   const pos = parametricEquation(props.cx, props.cy, props.ringRadius, angle)
+
+  const handlePointerOver = () => {
+    props.updateHover(props.artifact)
+    props.updateHoverCountry(props.artifact.country)
+  }
+
+  const handlePointerOut = () => {
+    props.updateHover()
+    props.updateHoverCountry()
+  }
+
   return (
     <circle
       className={`artifact ${props.classes ? props.classes.join(' '): ''}`}
@@ -16,8 +27,8 @@ export function Node(props) {
       fill={colors[props.artifact.type]}
       cx={pos[0]}
       cy={pos[1]}
-      onPointerOver={() => props.updateHover(props.artifact)}
-      onPointerOut={() => props.updateHover()}
+      onPointerOver={handlePointerOver}
+      onPointerOut={handlePointerOut}
       opacity={props.opacity}
     />
   )
