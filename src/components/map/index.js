@@ -7,6 +7,13 @@ export function Map(props) {
     } else {
       classes.push('notSelectedCountry')
     }
+
+    if (props.hoverCountry === country) {
+      classes.push('hoverCountry')
+    } else if (props.hoverCountry !== undefined) {
+      classes.push('notHoverCountry')
+    }
+
     return classes.join(' ')
   }
 

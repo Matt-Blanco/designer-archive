@@ -133,6 +133,25 @@ html {
   font-size: 10pt;
 }
 
+.selectedCountry {
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  fill: darkgray;
+  stroke: #000;
+}
+
+.notSelectedCountry {
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  fill: transparent;
+  stroke: #000;
+}
+
+.hoverCountry {
+  fill: black !important;
+  transition: all 0.25s ease-out;
+}
+
 .cls-1 {
   fill: darkgray;
   transition: all 0.25s ease-out;
@@ -142,28 +161,9 @@ html {
   stroke-linejoin: round;
 }
 
-.selectedCountry {
-  cursor: pointer;
+.notHoverCountry {
+  fill: white;
   transition: all 0.25s ease-out;
-  fill: darkgray;
-  opacity: 25% !important;
-  stroke: #000;
-}
-
-.notSelectedCountry {
-  cursor: pointer;
-  transition: all 0.25s ease-out;
-  fill: transparent;
-  opacity: 25% !important;
-  stroke: #000;
-}
-
-.cls-1:hover {
-  cursor: pointer;
-  transition: all 0.25s ease-out;
-  fill: black;
-  opacity: 25%;
-  stroke: #000;
 }
 
 #summaryType {
