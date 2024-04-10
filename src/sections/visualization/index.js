@@ -19,29 +19,28 @@ export function Visualization(props) {
   const [hoverArtifact, updateHover] = useState()
   const boundaries = largestRadius + margin
 
-  const getNodeOpacity = (node) => {
+  const getNodeClasses = (node) => {
     if (hoverArtifact !== undefined) {
       if (node.name === hoverArtifact.name) {
-        return 1
+        return 'fullArtifactOpacity'
       } else {
-        return 0.25
+        return 'partialArtifactOpacity'
       }
     } 
 
     if (props.hoverCountry) {
       if (props.hoverCountry === node.country) {
-        return 1
+        return 'fullArtifactOpacity'
       } else {
-        return 0.25
+        return 'partialArtifactOpacity'
       }
     } 
 
-    if (props.selectedCountries.includes(node.country)) {
-      return 1
-    } else if (props.selectedCountries.length > 0) {
-      return 0.25
+    if (props.selectedCountries.includes(node.country) || props.selectedCountries.length <= 0) {
+      return 'fullArtifactOpacity'
+    } else {
+      return 'partialArtifactOpacity'
     }
-    return 1;
   }
 
   return (
@@ -102,7 +101,7 @@ export function Visualization(props) {
                         artifact={artifact}
                         arr={arr}
                         index={i}
-                        opacity={getNodeOpacity(artifact)}
+                        classes={[getNodeClasses(artifact)]}
                       />
                     )
                   })
