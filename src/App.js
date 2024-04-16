@@ -23,6 +23,7 @@ function App() {
 
   const [hoverCountry, updateHover] = useState()
   const [selectedCountries, updateSelectedCountries] = useState([])
+  const [artifactType, updateArtifactType] = useState();
 
   const updateCountries = (country) => {
     if (selectedCountries.includes(country)) {
@@ -42,12 +43,16 @@ function App() {
           updateHover={updateHover}
           selectedCountries={selectedCountries}
           updateCountries={updateCountries}
+          artifactType={artifactType}
+          updateArtifactType={updateArtifactType}
         />
         <Visualization
           hoverCountry={hoverCountry}
           selectedCountries={selectedCountries}
           data={sorted}
           updateHoverCountry={updateHover}
+          artifactType={artifactType}
+          updateArtifactType={updateArtifactType}
         />
       </div>
     </div>
