@@ -12,11 +12,13 @@ export function Node(props) {
   const handlePointerOver = () => {
     props.updateHover(props.artifact)
     props.updateHoverCountry(props.artifact.country)
+    props.updateArtifactType(props.artifact.type)
   }
 
   const handlePointerOut = () => {
     props.updateHover()
     props.updateHoverCountry()
+    props.updateArtifactType()
   }
 
   return (

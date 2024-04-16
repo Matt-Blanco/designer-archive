@@ -36,6 +36,14 @@ export function Visualization(props) {
       }
     } 
 
+    if (props.artifactType) {
+      if (props.artifactType === node.type) {
+        return 'fullArtifactOpacity'
+      } else {
+        return 'partialArtifactOpacity'
+      }
+    } 
+
     if (props.selectedCountries.includes(node.country) || props.selectedCountries.length <= 0) {
       return 'fullArtifactOpacity'
     } else {
@@ -103,6 +111,7 @@ export function Visualization(props) {
                         index={i}
                         classes={[getNodeClasses(artifact)]}
                         updateHoverCountry={props.updateHoverCountry}
+                        updateArtifactType={props.updateArtifactType}
                       />
                     )
                   })
