@@ -2,10 +2,15 @@ import { colors } from "../../utils"
 import { Map } from "../../components/map"
 
 export function Legend(props) {
+
+  const handlePointerOver = (type) => {
+    props.updateArtifactType(type)
+  }
+
   return (
     <div id="legend">
       <h1 id="title">
-        The Archive of <br />a Designer
+        The Archive<br />of a Designer
       </h1>
       <p id="description">
         It is common practice for designer's to have a lot of collected artifacts to look back on or inspire then throughout the design process. Here's my collection:
@@ -14,13 +19,17 @@ export function Legend(props) {
         <h5 className="subTitle">
           Types of Artifacts
         </h5>
+        <p>(Hover over types to filter by type.)</p>
         <ul id="artifactTypes">
           {
             props.types.map((type) => {
+              const hoverClass = props.artifactType ? props.artifactType === type ? 'hoverType' : 'notHoverType': ''
               return (
                 <li
                   key={`artifact-type-${type}`}
-                  className="type"
+                  className={`type ${hoverClass}`}
+                  onPointerOver={() => handlePointerOver(type)}
+                  onPointerOut={() => handlePointerOver()}
                 >
                   <div
                     className="artifact"
@@ -35,9 +44,6 @@ export function Legend(props) {
         </ul>
       </div>
       <div className="lGroup">
-        <h5 className="subTitle">
-          Hover or Select Countries to Filter Artifacts by Country
-        </h5>
         <div id="readingTime">
           <Map
             selectedCountries={props.selectedCountries}
@@ -55,6 +61,9 @@ export function Legend(props) {
             ` ${props.selectedCountries.sort().join(', ')}` : " AT, BE, CA, CH, CZ, DE, ES, FR, IE, IT, IS, MA, NL, PL, PT, UK, US, SI"
           }
         </h5>
+        <p className="subTitle">
+          (Hover or Select within the map to Filter Artifacts <br />by Country.)
+        </p>
       </div>
     </div>
   )
