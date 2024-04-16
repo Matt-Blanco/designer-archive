@@ -2,6 +2,12 @@ html {
   font-family: Helvetica, sans-serif;
 }
 
+p {
+  font-size: 8pt;
+  margin: 0;
+  margin-top: 1vh;
+}
+
 #root {
   width: 98.5vw;
   margin-top: 2vh;
@@ -59,6 +65,22 @@ html {
 
 .type {
   display: flex;
+  opacity: 100%;
+  transition: all 0.25s ease-out;
+}
+
+.type:hover {
+  cursor: pointer;
+}
+
+.hoverType {
+  opacity: 100% !important;
+  transition: all 0.25s ease-out;
+}
+
+.notHoverType {
+  opacity: 25% !important;
+  transition: all 0.25s ease-out;
 }
 
 .artifact {
@@ -136,14 +158,14 @@ html {
 .selectedCountry {
   cursor: pointer;
   transition: all 0.25s ease-out;
-  fill: darkgray;
+  fill: darkgray !important;
   stroke: #000;
 }
 
 .notSelectedCountry {
   cursor: pointer;
   transition: all 0.25s ease-out;
-  fill: transparent;
+  fill: transparent !important;
   stroke: #000;
 }
 
