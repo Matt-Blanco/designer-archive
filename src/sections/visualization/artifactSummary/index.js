@@ -10,9 +10,9 @@ export function ArtifactSummary(props) {
         {props.artifact.name}
         <br />
         <div id="summaryType"><span>Type: {props.artifact.type} </span> <div className="artifact" style={{ backgroundColor: colors[props.artifact.type] }}></div></div>
-        Obtained in: {props.artifact.city}, {props.artifact.country}
+        {props.artifact.city}, {props.artifact.country}
         <br />
-        Date Obtained: {props.artifact.month} / {props.artifact.year}
+        {props.artifact.month} / {props.artifact.year}
       </p>
     </>
   )
