@@ -85,8 +85,8 @@ p {
 
 .artifact {
   margin-top: 2px;
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   border-radius: 100%;
   margin-right: 5px;
   transition: all 0.25s ease-out;
@@ -170,7 +170,7 @@ p {
 }
 
 .hoverCountry {
-  fill: black !important;
+  fill: darkgray !important;
   transition: all 0.25s ease-out;
 }
 
@@ -184,7 +184,7 @@ p {
 }
 
 .notHoverCountry {
-  fill: white;
+  fill: white !important;
   transition: all 0.25s ease-out;
 }
 
