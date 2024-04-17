@@ -19,7 +19,7 @@ export function Legend(props) {
         <h5 className="subTitle">
           Types of Artifacts
         </h5>
-        <p>(Hover over types to filter by type.)</p>
+        <p>(Hover over to filter by type.)</p>
         <ul id="artifactTypes">
           {
             props.types.map((type) => {
