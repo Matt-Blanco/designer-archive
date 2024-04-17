@@ -62,7 +62,7 @@ export function Legend(props) {
           }
         </h5>
         <p className="subTitle">
-          (Hover or Select within the map to Filter Artifacts <br />by Country.)
+          (Hover to Filter Artifacts by Country.)
         </p>
       </div>
     </div>
