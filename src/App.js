@@ -2,7 +2,7 @@ import { Legend } from './sections/legend';
 import data from "./data.json"
 import './style.css';
 import { Visualization } from './sections/visualization';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function App() {
   const uniqueTypes = data.reduce((u, curr) => {
@@ -24,6 +24,11 @@ function App() {
   const [hoverCountry, updateHover] = useState()
   const [selectedCountries, updateSelectedCountries] = useState([])
   const [artifactType, updateArtifactType] = useState();
+
+  useEffect(() => {
+    const countriesWithArtifacts = [...new Set(data.filter(artifact => artifact.type === artifactType).map(a => a.country))]
+    updateSelectedCountries(countriesWithArtifacts)
+  }, [artifactType])
 
   const updateCountries = (country) => {
     if (selectedCountries.includes(country)) {
