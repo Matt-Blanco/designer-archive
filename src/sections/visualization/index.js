@@ -26,7 +26,7 @@ export function Visualization(props) {
       } else {
         return 'partialArtifactOpacity'
       }
-    } 
+    }
 
     if (props.hoverCountry) {
       if (props.hoverCountry === node.country) {
@@ -34,7 +34,7 @@ export function Visualization(props) {
       } else {
         return 'partialArtifactOpacity'
       }
-    } 
+    }
 
     if (props.artifactType) {
       if (props.artifactType === node.type) {
@@ -42,7 +42,7 @@ export function Visualization(props) {
       } else {
         return 'partialArtifactOpacity'
       }
-    } 
+    }
 
     if (props.selectedCountries.includes(node.country) || props.selectedCountries.length <= 0) {
       return 'fullArtifactOpacity'
@@ -122,14 +122,17 @@ export function Visualization(props) {
         }
       </svg>
       <div id="viewArtifact">
-        {
+        {/* {
           !hoverArtifact ?
             <p id="emptyHoverText">Hover over a design artifact to view it.</p>
             :
             <ArtifactSummary
               artifact={hoverArtifact}
             />
-        }
+        } */}
+        <ArtifactSummary
+          artifact={hoverArtifact}
+        />
       </div>
     </div>
   )

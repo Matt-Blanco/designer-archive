@@ -195,3 +195,21 @@ p {
 #summaryType > span {
   margin-right: 5px;
 }
+
+.tooltip-enter {
+  opacity: 0;
+}
+
+.tooltip-enter-active {
+  opacity: 1;
+  transition: opacity 250ms
+}
+
+.tooltip-exit {
+  opacity: 0;
+}
+
+.tooltip-exit-active {
+  opacity: 0;
+  transition: opacity 250ms
+}
