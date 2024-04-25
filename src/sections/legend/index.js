@@ -13,7 +13,7 @@ export function Legend(props) {
         The Archive<br />of a Designer
       </h1>
       <p id="description">
-        It is common practice for designer's to have a lot of collected artifacts to look back on or inspire then throughout the design process. Here's my collection:
+        It is common practice for designers to have a lot of collected artifacts to look back on or inspire them throughout the design process. Here's my collection:
       </p>
       <div className="lGroup">
         <h5 className="subTitle">
